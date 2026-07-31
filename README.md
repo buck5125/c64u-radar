@@ -29,10 +29,10 @@ third-party package, no account.
 
 ## Features
 
-- Hires bitmap scope, 9 nautical mile range with 3/6/9 nm rings.
+- Hires bitmap scope, customisable nautical mile range 3..99nm range rings.
 - Up to 8 simultaneous targets (VIC-II hardware sprite limit), shown as
   numbered diamonds with a directional stem for track/heading.
-- Callsign, aircraft type, altitude, and groundspeed for each target.
+- Callsign, aircraft type, altitude, climb/descent indicator and groundspeed for each target.
 - Center on any latitude/longitude, or a four-letter ICAO airport code
   (worldwide, via a cached OurAirports lookup).
 - The server finds the C64U on the LAN and pushes its own address into a
@@ -50,7 +50,8 @@ third-party package, no account.
    - **Linux**: run `executables/server_bundle/start_server_mac_linux.sh`.
    - Or directly: `python3 executables/server_bundle/ultimate_radar_server.py`
      (Python 3.9+).
-2. On the C64U: enable `Command Interface`, then run `executables/c64u_radar.prg`.
+2. On the C64U: enable `Command Interface`, then run `executables/c64u_radar.prg`
+   for the .c based version and /C64u_radar2.prg for the .6502 version. 
    Look under **Main Menu > MEMORY & ROMS** on the Commodore-branded C64
    Ultimate, or **Configure > C64 and Cartridge Settings** on other
    Ultimate 64 / 1541 Ultimate-II+ firmware. Menu location can vary by
