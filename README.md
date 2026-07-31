@@ -3,6 +3,10 @@
 **v0.1 — first public beta.** A live ADS-B air traffic scope for the
 Commodore 64 Ultimate (C64U/Ultimate 64).
 
+**v0.2 - range set via menu.** added new menu item to set range (3..99) multiples of 3
+
+**v0.3 - track table enhancements.** climb/descent glyphs, ground tracks in grey, auto QNH
+
 ![C64U Radar scope screen](assets/scope_preview.png)
 
 The C64 can't do HTTPS, JSON, or geodesic math, so a small companion program
